@@ -1,0 +1,28 @@
+/* 2 elements with common properties but each element also has his own specificities ? 
+
+-- With classes only --
+we create 2 classes : 
+==> common properties go in the chained classes (with a " , " )
+==> diffrent properties go in the single definition of each one of the classes 
+*/
+
+.l-button,
+.r-button {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.l-button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.r-button {
+  background-color: yellow;
+}
+
+/* Same also possible combining 2 ids and a single class :
+- common properties --> class 
+- unique properties --> each element's unique properties are defined in its unique ID 
+*/
